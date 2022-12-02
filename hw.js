@@ -201,3 +201,20 @@ function isThisAnEmail (str) {
 }
 
 console.log(isThisAnEmail("someone@gmail.com"))
+
+/* EXERCISE 7
+
+Write a function called whatDayIsIt that should return the current day of the week.
+
+*/
+
+title("exercise 7");
+
+function whatDayIsIt (date) {
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const d = new Date();
+    let day = weekday[d.getDay()];
+    return day
+}
+
+console.log(whatDayIsIt())
