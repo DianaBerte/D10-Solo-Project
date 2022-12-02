@@ -88,4 +88,50 @@ Write a piece of code for programmatically removing the last skill from the skil
 title("exercise G");
 
 me.skills.pop();
-console.log("This is the me object without the last listed skill:", me)
+console.log("This is the me object without the last listed skill:", me);
+
+title("JS Functions");
+title("exercise 1");
+
+/* EXERCISE 1
+
+Write a function called dice; it should randomize an integer number between 1 and 6.
+
+*/
+
+function dice(n) {
+    for (let i = 1; i <= n; i++) {
+    return (Math.floor(Math.random() * 6));
+   }
+   return dice;
+}
+
+console.log(dice(1)); /* incorrect, it's showing also 0 */
+
+/* EXERCISE 2
+
+Write a function called whoIsBigger which receives 2 numbers as parameters and returns the biggest one.
+
+*/
+
+title("exercise 2");
+
+function WhoIsBigger(a, b) {
+    if (a > b) {
+        return a; 
+    } else {
+        return b;
+    }
+}
+
+console.log(WhoIsBigger(100, 99))
+
+
+/* EXERCISE 3
+
+Write a function called splitMe which receives a string as a parameter and returns an array with every word in that string.
+
+Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
+
+*/
+
