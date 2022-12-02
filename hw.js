@@ -218,3 +218,29 @@ function whatDayIsIt (date) {
 }
 
 console.log(whatDayIsIt())
+
+/* EXERCISE 8
+
+Write a function called rollTheDices which receives a number as a parameter.
+
+It should invoke the dice() function defined in Ex1 the specified amount of times,
+
+and return an object containing a sum property holding the sum of all values extracted
+
+and a values array containing the single values of the dicerolls themselves.
+
+Example: RollTheDices(3) => returns {
+
+sum: 10
+
+values: [3, 3, 4]
+
+}
+
+*/
+
+title("exercise 8");
+
+function rollTheDices(num) {
+    
+}
