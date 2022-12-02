@@ -143,3 +143,25 @@ function splitMe(str) {
     }
 
 console.log(splitMe("I love coding"))
+
+/* EXERCISE 4
+
+Write a function called deleteOne which receives a string and a boolean as parameters.
+
+If the boolean value is true it should return the string without the first letter, otherwise it should remove the last one from it.
+
+*/
+
+title("exercise 4");
+
+function deleteOne(str, boo) {
+    if (boo === true) {
+        let words = str.slice(1);
+        return words;
+    } else {
+        let words2 = str.slice(0, -1);
+        return words2
+    }
+} 
+
+console.log(deleteOne("I love coding", true))
