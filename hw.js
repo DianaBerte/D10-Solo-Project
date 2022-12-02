@@ -182,3 +182,22 @@ function onlyLetters(str) {
 }
 
 console.log(onlyLetters("I have 2 dogs"))
+
+/* EXERCISE 6
+
+Write a function called isThisAnEmail which receives a string as a parameter and returns true if the string is a valid email address.
+
+*/
+
+title("exercise 6");
+
+function isThisAnEmail (str) {
+    let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (str.match(validRegex)) {
+        return true;
+    } else {
+        return false
+    }
+}
+
+console.log(isThisAnEmail("someone@gmail.com"))
