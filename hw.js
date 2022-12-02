@@ -44,11 +44,27 @@ Create a variable called me and assign to it an object containing the following 
 
 */
 
+title("exercise D");
+
+let me = {
+    name: "Diana",
+    surname: "Berte",
+    age: 28
+}
+console.log("This is me:", me)
+
 /* EXERCISE E
 
 Write a piece of code for programmatically removing the age property from the previously create object.
 
 */
+
+title("exercise E");
+
+delete me.age;
+console.log("This is me without the age property:", me)
+
+
 
 /* EXERCISE F
 
