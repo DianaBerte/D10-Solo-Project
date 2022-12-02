@@ -84,3 +84,8 @@ console.log("This is the me object with added an array of the programming langua
 Write a piece of code for programmatically removing the last skill from the skills array inside the me object.
 
 */
+
+title("exercise G");
+
+me.skills.pop();
+console.log("This is the me object without the last listed skill:", me)
