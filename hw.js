@@ -138,8 +138,8 @@ Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
 title("exercise 3");
 
 function splitMe(str) {
-    const arrayOfStrings = stringToSplit.split;
-    return stringToSplit;
-}
+    let words = str.split(" ");
+    return words;
+    }
 
 console.log(splitMe("I love coding"))
