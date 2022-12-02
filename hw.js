@@ -165,3 +165,20 @@ function deleteOne(str, boo) {
 } 
 
 console.log(deleteOne("I love coding", true))
+
+/* EXERCISE 5
+
+Write a function called onlyLetters which receives a string as a parameter and returns it removing all the digits.
+
+Ex.: onlyLetters("I have 4 dogs") => returns "I have dogs"
+
+*/
+
+title("exercise 5");
+
+function onlyLetters(str) {
+    const newstr = str.replace(/[0-9]/g, '');
+    return newstr
+}
+
+console.log(onlyLetters("I have 2 dogs"))
