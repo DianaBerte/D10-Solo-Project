@@ -124,7 +124,7 @@ function WhoIsBigger(a, b) {
     }
 }
 
-console.log(WhoIsBigger(100, 99))
+console.log(WhoIsBigger(103, 99))
 
 
 /* EXERCISE 3
@@ -135,3 +135,11 @@ Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
 
 */
 
+title("exercise 3");
+
+function splitMe(str) {
+    const arrayOfStrings = stringToSplit.split;
+    return stringToSplit;
+}
+
+console.log(splitMe("I love coding"))
